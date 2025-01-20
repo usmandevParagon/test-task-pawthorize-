@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test task</title>
+    <title>Pawthorize</title>
+    <meta
+      name="description"
+      content="Pawthorize, Where Pet Safety Meets Convinience"
+    />
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap"
       rel="stylesheet"
@@ -11,271 +17,241 @@
     <link href="build/styles.css" rel="stylesheet" />
   </head>
   <body class="bg-[#FAF8FF] font-urbanist">
-    <div class="">
-      <section
-        class="w-full h-auto bg-cover bg-center relative bg-[url('/assets/hero-section.png')]"
+    <header
+      class="w-full h-auto bg-cover bg-center relative bg-[url('/assets/hero-img.png')]"
+    >
+      <nav class="text-white z-10 relative">
+        <img
+          src="assets/logo.svg"
+          alt="Logo"
+          class="ml-8 pt-6 md:ml-16 lg:ml-60 md:pt-12"
+        />
+      </nav>
+
+      <div
+        class="flex justify-center h-full text-center z-10 relative py-20 md:py-[117px]"
       >
-        <div class="text-white z-10 relative">
+        <div class="text-white p-6">
+          <h1
+            class="text-[40px] md:text-[70px] text-gray-100 font-bold md:font-extrabold"
+          >
+            Be Pet Friendly, <br />
+            Reduce Liability
+          </h1>
+          <h5
+            class="text-xl md:text-2xl leading-[24px] md:leading-[38px] py-6 md:py-8 px-10 md:px-36 lg:px-96 font-semibold"
+          >
+            Pet Policy management and instant risk assessment for the
+            hospitality industry
+          </h5>
+          <div
+            class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 pb-12"
+          >
+            <a href="#" class="primary-btn">Pawthorize A Pet</a>
+            <a href="#" class="info-btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background overlay -->
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-black opacity-40"
+      ></div>
+    </header>
+
+    <section class="flex justify-center rounded-lg">
+      <div
+        class="flex items-center justify-center flex-col w-[80%] h-auto bg-white rounded-3xl z-10 -mt-10 md:-mt-16 pt-8 md:pt-20"
+      >
+        <h2 class="p-4 w-full md:w-[50%]">
+          Pawthorize Certified Pets, Simplifies Stays
+        </h2>
+        <h4>COMPLETELY FREE</h4>
+
+        <p class="p-4 text-center w-full md:w-[80%]">
+          At no cost to you, ensure your hotel provides a safe and worry-free
+          environment with our pet verification service. We verify up-to-date
+          vaccinations and assess the risk of damage or disruption, allowing you
+          to welcome pets confidently while protecting your property and guests.
+        </p>
+        <div class="flex flex-row">
+          <a href="#" class="primary-btn shadow-xl m-1 md:m-3"
+            >Request a Demo</a
+          >
+          <a href="#" class="secondary-btn m-1 md:m-3">Sign Up</a>
+        </div>
+        <div class="mt-12">
           <img
-            src="assets/image (10) 1.svg"
-            alt="Logo"
-            class="ml-8 pt-6 md:ml-16 lg:ml-60 md:pt-12"
+            src="./assets/pawthorize_certified_pets-img.png"
+            alt="Pet Image"
           />
         </div>
+      </div>
+    </section>
 
-        <div
-          class="flex justify-center h-full text-center z-10 relative py-20 md:py-[117px]"
-        >
-          <div class="text-white p-6">
-            <h1
-              class="text-[35px] md:text-[70px] text-gray-100 font-extrabold px-8 md:px-20"
-            >
-              Be Pet Friendly, <br />
-              Reduce Liability
-            </h1>
-            <p
-              class="text-xl md:text-2xl leading-[24px] md:leading-[38px] py-6 md:py-8 px-10 md:px-20 font-semibold"
-            >
-              Pet Policy management and instant risk assessment for the
-              hospitality industry
-            </p>
-            <div
-              class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 pb-12"
-            >
-              <a href="#" class="custom-blue-btn">Pawthorize A Pet</a>
-              <a href="#" class="custom-white-btn">Learn More</a>
-            </div>
+    <section class="w-full md:w-[80%] mx-auto py-12 md:py-32">
+      <div class="p-3 md:p-10 flex flex-col justify-center items-center">
+        <h4>UNLEASH THE BENEFITS:</h4>
+        <h2 class="py-2 md:py-4">Less Worry, More Wag</h2>
+      </div>
+
+      <div
+        class="flex flex-col lg:flex-row items-center justify-center py-4 md:py-10 gap-8 md:gap-16"
+      >
+        <div class="flex flex-col items-start justify-start w-[90%] md:w-[80%]">
+          <h3>Tailored Pet Risk Assessment</h3>
+          <p class="my-4 md:my-10">
+            Gain access to a personalized Risk Score for each pet, allowing you
+            to accept pets based on their individual behavior and health
+            history, moving beyond outdated breed restrictions.
+          </p>
+          <div class="flex flex-row items-start">
+            <a href="#" class="primary-btn shadow-xl mr-2">Request a Demo</a>
+            <a href="#" class="secondary-btn ml-2">Sign Up</a>
           </div>
         </div>
+        <div class="flex justify-center lg:ml-10 w-[90%] md:w-full">
+          <img src="./assets/tailored_pet-img.png" alt="Pet Image" />
+        </div>
+      </div>
 
-        <!-- Background overlay -->
-        <div
-          class="absolute top-0 left-0 w-full h-full bg-black opacity-40"
-        ></div>
-      </section>
+      <div
+        class="flex flex-col lg:flex-row items-center justify-center py-4 md:py-10 gap-8 md:gap-16"
+      >
+        <div class="hidden lg:block mr-10 w-full">
+          <img src="./assets/comprehensive_health-img.png" alt="Pet Image" />
+        </div>
+        <div class="flex flex-col items-start justify-start w-[90%] md:w-[80%]">
+          <h3>Comprehensive Health and Vaccination Declarations</h3>
+          <p class="my-4 md:my-10">
+            Ensure that every pet entering your property is up-to-date on
+            vaccinations and free from common health issues, reducing your
+            liability and giving you peace of mind.
+          </p>
 
-      <section class="flex justify-center rounded-lg">
-        <div
-          class="flex items-center justify-center flex-col w-[80%] h-auto bg-white rounded-3xl z-10 -mt-16 pt-12 md:pt-20"
-        >
-          <h2 class="h2 p-4 w-full md:w-[70%]">
-            Pawthorize Certified Pets, Simplifies Stays
+          <div class="flex flex-row items-start">
+            <a href="#" class="primary-btn shadow-xl mr-2">Request a Demo</a>
+            <a href="#" class="secondary-btn ml-2">Sign Up</a>
+          </div>
+        </div>
+        <div class="flex justify-center lg:hidden w-[90%]">
+          <img src="./assets/comprehensive_health-img.png" alt="Pet Image" />
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col lg:flex-row items-center justify-center py-4 md:py-10 gap-8 md:gap-16"
+      >
+        <div class="flex flex-col items-start justify-start w-[90%] md:w-[80%]">
+          <h3>Maximized Revenue With Tiered Pet Fees</h3>
+          <p class="my-4 md:my-10">
+            Implement a tiered pet fee structure based on the Risk Score,
+            helping you offset liability premiums and turn your pet-friendly
+            accommodations into a profitable venture.
+          </p>
+          <div class="flex flex-row items-start">
+            <a href="#" class="primary-btn shadow-xl mr-2">Request a Demo</a>
+            <a href="#" class="secondary-btn ml-2">Sign Up</a>
+          </div>
+        </div>
+        <div class="flex justify-center lg:ml-10 w-[90%] md:w-full">
+          <img src="./assets/maximized_revenue-img.png" alt="Pet Image" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-[#F7F3FF] py-10 md:py-20 w-full mx-auto flex flex-col justify-center items-center"
+    >
+      <div class="w-[80%]">
+        <div class="flex flex-col items-center justify-center">
+          <h4>YOUR CHOICE, YOUR CONTROL</h4>
+          <h2 class="px-4 py-12 w-full md:w-[50%]">
+            Admin Dashboard Or Seamleass Software Integration
           </h2>
-          <p
-            class="text-custom-blue text-base md:text-lg tracking-wider font-bold md:font-extrabold p-3"
-          >
-            COMPLETELY FREE
-          </p>
-
-          <p class="section3-p p-4 text-center w-full md:w-[80%]">
-            At no cost to you, ensure your hotel provides a safe and worry-free
-            environment with our pet verification service. We verify up-to-date
-            vaccinations and assess the risk of damage or disruption, allowing
-            you to welcome pets confidently while protecting your property and
-            guests.
-          </p>
-          <div class="flex flex-row">
-            <a href="#" class="custom-blue-btn shadow-xl m-1 md:m-3"
-              >Request a Demo</a
-            >
-            <a href="#" class="custom-lightblue-btn m-1 md:m-3">Sign Up</a>
-          </div>
-          <div class="mt-12">
-            <img src="./assets/OBJECTS.png" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <section class="w-full md:w-[80%] mx-auto py-12 md:py-32">
-        <div class="p-3 md:p-10 flex flex-col justify-center items-center">
-          <p
-            class="text-custom-blue tracking-wider text-base md:text-lg py-4 font-bold md:font-extrabold"
-          >
-            UNLEASH THE BENEFITS:
-          </p>
-          <h2 class="h2 py-2 md:py-4">Less Worry, More Wag</h2>
         </div>
 
         <div
-          class="flex flex-col lg:flex-row items-center justify-center py-4 md:py-10 gap-8 md:gap-16"
+          class="flex flex-col lg:flex-row items-stretch justify-center gap-4"
         >
           <div
-            class="flex flex-col items-start justify-start w-[90%] md:w-[80%]"
+            class="w-full lg:w-[45%] bg-white px-4 md:px-12 pt-12 md:pt-20 pb-12 md:pb-14 md:m-4 rounded-xl md:rounded-2xl flex flex-col justify-between"
           >
-            <h3 class="section3-h">Tailored Pet Risk Assessment</h3>
-            <p class="section3-p my-4 md:my-10">
-              Gain access to a personalized Risk Score for each pet, allowing
-              you to accept pets based on their individual behavior and health
-              history, moving beyond outdated breed restrictions.
-            </p>
-            <div class="flex flex-row items-start">
-              <a href="#" class="custom-blue-btn shadow-xl mr-2"
-                >Request a Demo</a
-              >
-              <a href="#" class="custom-lightblue-btn ml-2">Sign Up</a>
-            </div>
-          </div>
-          <div class="flex justify-center lg:ml-10 w-[90%] md:w-full">
-            <img src="./assets/Group.png" alt="Pet Risk Assessment" />
-          </div>
-        </div>
+            <img
+              src="./assets/seamlessly_connect-img.png"
+              width="48px"
+              height="48px"
+              alt="Icon"
+              class="mb-2 md:mb-10"
+            />
 
-        <div
-          class="flex flex-col lg:flex-row items-center justify-center py-4 md:py-10 gap-8 md:gap-16"
-        >
-          <div class="hidden lg:block w-full">
-            <img src="./assets/Group (1).png" alt="" />
-          </div>
-          <div
-            class="flex flex-col items-start justify-start w-[90%] md:w-[80%]"
-          >
-            <div class="text-left">
-              <h3 class="section3-h">
-                Comprehensive Health and Vaccination Declarations
+            <div class="flex flex-col justify-between h-full">
+              <h3 class="py-6 md:py-10">
+                Seamlessly connect Pawthorize with your existing hotel
+                management software.
               </h3>
-              <p class="section3-p my-4 md:my-10">
-                Ensure that every pet entering your property is up-to-date on
-                vaccinations and free from common health issues, reducing your
-                liability and giving you peace of mind.
+              <p class="pb-12 md:min-h-52">
+                We will work with you to create custom integrations at no cost,
+                ensuring a smooth, hassle-free experience while managing your
+                pet-friendly services.
               </p>
 
-              <div class="flex flex-row items-start">
-                <a href="#" class="custom-blue-btn shadow-xl mr-2"
-                  >Request a Demo</a
-                >
-                <a href="#" class="custom-lightblue-btn ml-2">Sign Up</a>
-              </div>
-            </div>
-          </div>
-          <div class="flex justify-center lg:hidden w-[90%]">
-            <img src="./assets/Group (1).png" alt="" />
-          </div>
-        </div>
-
-        <div
-          class="flex flex-col lg:flex-row items-center justify-center py-4 md:py-10 gap-8 md:gap-16"
-        >
-          <div
-            class="flex flex-col items-start justify-start w-[90%] md:w-[80%]"
-          >
-            <h3 class="section3-h">Maximized Revenue With Tiered Pet Fees</h3>
-            <p class="section3-p my-4 md:my-10">
-              Implement a tiered pet fee structure based on the Risk Score,
-              helping you offset liability premiums and turn your pet-friendly
-              accommodations into a profitable venture.
-            </p>
-            <div class="flex flex-row items-start">
-              <a href="#" class="custom-blue-btn shadow-xl mr-2"
-                >Request a Demo</a
+              <a
+                href="#"
+                class="bg-[#44A0E4] text-white px-6 py-4 rounded-lg text-lg font-bold block w-full text-center"
               >
-              <a href="#" class="custom-lightblue-btn ml-2">Sign Up</a>
+                Request a Demo
+              </a>
             </div>
-          </div>
-          <div class="flex justify-center lg:ml-10 w-[90%] md:w-full">
-            <img src="./assets/OBJECTS (1).png" alt="Pet Risk Assessment" />
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="bg-[#F7F3FF] py-10 md:py-20 w-full mx-auto flex flex-col justify-center items-center"
-      >
-        <div class="w-[80%]">
-          <div class="flex flex-col items-center justify-center">
-            <p class="text-custom-blue font-bold">YOUR CHOICE, YOUR CONTROL</p>
-            <h2 class="h2 px-4 py-12 w-full md:w-[70%]">
-              Admin Dashboard Or Seamleass Software Integration
-            </h2>
           </div>
 
           <div
-            class="flex flex-col lg:flex-row items-stretch justify-center gap-4"
+            class="w-full lg:w-[45%] bg-white px-4 md:px-12 pt-12 md:pt-20 pb-12 md:pb-14 md:m-4 rounded-xl md:rounded-2xl flex flex-col justify-between"
           >
-            <div
-              class="w-full lg:w-[45%] bg-white px-4 md:px-12 pt-12 md:pt-20 pb-12 md:pb-14 md:m-4 rounded-xl md:rounded-2xl flex flex-col justify-between"
-            >
-              <img
-                src="./assets/Group (2).png"
-                width="48px"
-                height="48px"
-                alt=""
-                class="mb-2 md:mb-10"
-              />
+            <img
+              src="./assets/access_and_manage-img.png"
+              height="48px"
+              width="48px"
+              alt="Icon"
+              class="mb-2 md:mb-10"
+            />
 
-              <div class="flex flex-col justify-between h-full">
-                <h3 class="section3-h py-6 md:py-10">
-                  Seamlessly connect Pawthorize with your existing hotel
-                  management software.
-                </h3>
-                <p class="pb-12 section3-p md:min-h-52">
-                  We will work with you to create custom integrations at no
-                  cost, ensuring a smooth, hassle-free experience while managing
-                  your pet-friendly services.
-                </p>
-                <div class="card-footer">
-                  <a
-                    href="#learn-more"
-                    class="bg-custom-blue text-white px-6 py-4 rounded-lg text-lg font-semibold block w-full text-center"
-                  >
-                    Request a Demo
-                  </a>
-                </div>
-              </div>
+            <div class="flex flex-col justify-between h-full">
+              <h3 class="py-6 md:py-10">
+                Access and manage pet details effortlessly with your
+                personalized admin panel.
+              </h3>
+              <p class="pb-12 md:min-h-52">
+                Receive completed Pawthorize questionnaires and instantly view
+                individual pet risk scores, allowing you to make informed
+                decisions and maintain a safe, pet-friendly environment for all
+                your guests.
+              </p>
             </div>
 
-            <div
-              class="w-full lg:w-[45%] bg-white px-4 md:px-12 pt-12 md:pt-20 pb-12 md:pb-14 md:m-4 rounded-xl md:rounded-2xl flex flex-col justify-between"
+            <a
+              href="#"
+              class="bg-[#44A0E4] text-white px-6 py-4 rounded-lg text-lg font-bold block w-full text-center"
             >
-              <div class="card-header">
-                <div class="card-thumbnail">
-                  <img
-                    src="./assets/fi_1828791.png"
-                    height="48px"
-                    width="48px"
-                    alt=""
-                    class="mb-2 md:mb-10"
-                  />
-                </div>
-              </div>
-
-              <div class="flex flex-col justify-between h-full">
-                <h3 class="section3-h py-6 md:py-10">
-                  Access and manage pet details effortlessly with your
-                  personalized admin panel.
-                </h3>
-                <p class="pb-12 section3-p md:min-h-52">
-                  Receive completed Pawthorize questionnaires and instantly view
-                  individual pet risk scores, allowing you to make informed
-                  decisions and maintain a safe, pet-friendly environment for
-                  all your guests.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a
-                  href="#learn-more"
-                  class="bg-custom-blue text-white px-6 py-4 rounded-lg text-lg font-semibold block w-full text-center"
-                >
-                  Sign Up
-                </a>
-              </div>
-            </div>
+              Sign Up
+            </a>
           </div>
         </div>
-      </section>
-      <footer
-        class="bg-[#102332] flex flex-col md:flex-row justify-between items-center gap-4 py-4 px-10 md:px-20"
-      >
-        <img
-          src="./assets/image (10) 1.svg"
-          alt=""
-          width="170"
-          height="43"
-          loading="lazy"
-        />
-        <p class="text-white leading-7 font-semibold">
-          Copyright 2024 All Rights Reserved
-        </p>
-      </footer>
-    </div>
+      </div>
+    </section>
+    <footer
+      class="bg-[#102332] flex flex-col md:flex-row justify-between items-center gap-4 py-4 px-10 md:px-20"
+    >
+      <img
+        src="./assets/logo.svg"
+        alt="Footer Logo"
+        width="170"
+        height="43"
+        loading="lazy"
+      />
+      <p class="text-white leading-7 font-semibold">
+        Copyright 2024 All Rights Reserved
+      </p>
+    </footer>
   </body>
 </html>
