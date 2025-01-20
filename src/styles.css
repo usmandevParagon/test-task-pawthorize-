@@ -23,9 +23,9 @@
 }
 
 .section3-h {
-  @apply text-[18px] md:text-3xl text-[#0B2B43] font-semibold leading-9;
+  @apply text-xl md:text-3xl text-[#0B2B43] font-semibold leading-9;
 }
 
 .section3-p {
-  @apply text-base md:text-xl leading-7 text-[#557790];
+  @apply text-lg md:text-xl leading-7 text-[#557790];
 }
